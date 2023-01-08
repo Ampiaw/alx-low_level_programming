@@ -12,7 +12,7 @@ int main(void)
 
 	for (a = 97; a <= z; a++)
 		putchar(a);
-	for (A = 65; A <= 90; A++)
+	for (A = 65; A <= Z; A++)
 		putchar(A);
 	putchar('\n');
 	return (0);
