@@ -4,13 +4,13 @@
  */
 void times_table(void)
 {
-	int n, m, p;
+	int n, m;
+	int p = n * m;
 
 	while (n == 9)
 	{
 		for (m = 0; m <= 10; m++)
 		{
-			p = n * m;
 			_putchar(p + '0');
 			_putchar(',');
 			_putchar(' ');
