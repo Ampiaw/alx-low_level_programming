@@ -8,7 +8,7 @@ void times_table(void)
 	int m;
 	int p = n * m;
 
-	while (n == 9)
+	for (;n == 9;)
 	{
 		for (m = 0; m <= 10; m++)
 		{
