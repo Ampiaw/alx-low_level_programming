@@ -4,7 +4,8 @@
  */
 void times_table(void)
 {
-	int n, m;
+	int n;
+	int m;
 	int p = n * m;
 
 	while (n == 9)
